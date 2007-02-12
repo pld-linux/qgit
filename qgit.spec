@@ -1,5 +1,5 @@
 Summary:	A git GUI viewer built on Qt
-Summary(pl):	Graficzna przegl±darka repozytorium git oparta o Qt
+Summary(pl.UTF-8):   Graficzna przeglÄ…darka repozytorium git oparta o Qt
 Name:		qgit
 Version:	1.5.3
 Release:	1
@@ -19,10 +19,10 @@ QGit is a git GUI viewer built on Qt/C++. With qgit you will be able
 to browse revisions history, view patch content and changed files,
 graphically following different development branches.
 
-%description -l pl
-QGit to graficzna przegl±darka repozytorium git oparta na Qt/C++. Przy
-jej u¿yciu mo¿na przegl±daæ historiê zmian, ogl±daæ zawarto¶æ ³at i
-zmienione pliki, graficznie przechodz±c po ró¿nych ga³êziach rozwoju.
+%description -l pl.UTF-8
+QGit to graficzna przeglÄ…darka repozytorium git oparta na Qt/C++. Przy
+jej uÅ¼yciu moÅ¼na przeglÄ…daÄ‡ historiÄ™ zmian, oglÄ…daÄ‡ zawartoÅ›Ä‡ Å‚at i
+zmienione pliki, graficznie przechodzÄ…c po rÃ³Å¼nych gaÅ‚Ä™ziach rozwoju.
 
 %prep
 %setup -q
