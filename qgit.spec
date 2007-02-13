@@ -1,5 +1,5 @@
 Summary:	A git GUI viewer built on Qt
-Summary(pl.UTF-8):   Graficzna przeglądarka repozytorium git oparta o Qt
+Summary(pl.UTF-8):	Graficzna przeglądarka repozytorium git oparta o Qt
 Name:		qgit
 Version:	1.5.3
 Release:	1
