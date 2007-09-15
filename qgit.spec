@@ -1,12 +1,12 @@
 Summary:	A git GUI viewer built on Qt
 Summary(pl.UTF-8):	Graficzna przeglądarka repozytorium git oparta o Qt
 Name:		qgit
-Version:	1.5.6
+Version:	1.5.7
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/qgit/%{name}-%{version}.tar.bz2
-# Source0-md5:	d96f1a1c437d72603b60d34f19084609
+# Source0-md5:	2aa52a51e01ec0cde8522281d9ace2aa
 Source1:	%{name}.desktop
 URL:		http://digilander.libero.it/mcostalba/
 BuildRequires:	qt-devel
