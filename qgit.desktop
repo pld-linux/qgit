@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=qgit
 GenericName=git GUI viewer
 GenericName[pl]=Przeglądarka GUI dla git
@@ -8,7 +7,7 @@ Type=Application
 Comment=git GUI viewer
 Comment[pl]=Przeglądarka GUI dla git
 Terminal=false
-MimeType=inode/directory
+MimeType=inode/directory;
 ServiceTypes=KParts/ReadOnlyPart,Browser/View
 X-KDE-BrowserView-Args=DetailedList
 Categories=Qt;Development;RevisionControl;
