@@ -11,8 +11,8 @@ Source1:	%{name}.desktop
 URL:		http://digilander.libero.it/mcostalba/
 BuildRequires:  QtCore-devel
 BuildRequires:  QtGui-devel
-BuildRequires:  qt4-build
-BuildRequires:  qt4-qmake
+BuildRequires:  qt4-build >= 4.3.3-3
+BuildRequires:  qt4-qmake >= 4.3.3-3
 BuildRequires:	rpmbuild(macros) >= 1.129
 Requires:	git-core >= 1.5.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -31,7 +31,7 @@ zmienione pliki, graficznie przechodząc po różnych gałęziach rozwoju.
 %setup -q -n %{name}
 
 %build
-qt4-qmake qgit.pro
+qmake-qt4 qgit.pro
 %{__make}
 
 %install
